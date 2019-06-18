@@ -1,10 +1,11 @@
 {
-  "name": "server",
+  "name": "@yarn-workspace/server",
   "version": "1.0.0",
   "main": "index.js",
   "author": "andres alcocer",
   "license": "MIT",
   "dependencies": {
-    "common": "1.0.0"
+    "@yarn-workspace/common": "1.0.0",
+    "graphql-yoga": "^1.17.4"
   }
 }
